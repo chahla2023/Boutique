@@ -1,0 +1,13 @@
+{
+  "devDependencies": {
+    "@babel/preset-react": "^7.0.0",
+    "@symfony/webpack-encore": "^0.28.0",
+    "node-sass": "^4.11.0",
+    "sass-loader": "^7.0.1"
+  },
+  "dependencies": {
+    "aos": "^2.3.4",
+    "jquery": "^3.7.1",
+    "owl.carousel": "^2.3.4"
+  }
+}

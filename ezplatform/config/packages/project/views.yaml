@@ -1,0 +1,25 @@
+ezplatform:
+  system:
+    site:
+      content_view:
+        full:
+          boutique:
+            controller: App\Controller\LayoutController:viewAction
+            template: "@ezdesign/views/full/home.html.twig"
+            match:
+              Identifier\ContentType: [ boutiqueinfo ]
+          category:
+            controller: App\Controller\CategoryController:viewAction
+            template: "@ezdesign/views/full/category.html.twig"
+            match:
+              Identifier\ContentType: [ category ]
+          product:
+            controller: App\Controller\ProductController:viewAction
+            template: "@ezdesign/views/full/product.html.twig"
+            match:
+              Identifier\ContentType: [ product ]
+        line:
+          product:
+            template: "@ezdesign/views/line/product.html.twig"
+            match:
+              Identifier\ContentType: [ product ]
